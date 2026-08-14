@@ -96,4 +96,4 @@ assert!(s.last().unwrap().2 < 1.0); // final remaining balance ≈ 0
     The last `principal_paid` is clamped to the remaining balance, so the
     schedule always closes exactly at `0.0` rather than overshooting by a few
     cents of float error. For a polished printable table with extra payments,
-    use the [AssetLoanCalculator amortization tool](https://assetloancalculator.com/).
+    use the [https://www.assetloancalculator.com](https://assetloancalculator.com/).

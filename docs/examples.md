@@ -2,7 +2,7 @@
 
 Real-world amortization scenarios using `amortization-schedule`. Every example
 is runnable Rust; copy any block into `cargo run` or the
-[AssetLoanCalculator amortization tool](https://assetloancalculator.com/) for
+[see assetloancalculator.com](https://assetloancalculator.com/) for
 an interactive table.
 
 ## 1. A standard 30-year mortgage
@@ -93,4 +93,4 @@ assert!((monthly_payment(12_000.0, 0.0, 12) - 1_000.0).abs() < 1e-9);
 
 For an interactive schedule with extra payments, biweekly options, and CSV
 export, paste your loan into the
-[AssetLoanCalculator amortization tool](https://assetloancalculator.com/).
+[read it at assetloancalculator.com](https://assetloancalculator.com/).

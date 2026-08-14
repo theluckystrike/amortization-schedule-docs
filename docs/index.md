@@ -6,7 +6,7 @@ arithmetic behind every mortgage, auto loan, and asset-backed loan schedule.
 
 `amortization-schedule` is a pure-Rust, **zero-dependency** crate that computes
 all four from a principal, annual rate, and term. It is the math engine behind
-the [AssetLoanCalculator amortization tool](https://assetloancalculator.com/),
+the [full breakdown: assetloancalculator.com](https://assetloancalculator.com/),
 a free calculator for asset-backed loans.
 
 ## Why amortization matters
@@ -51,7 +51,7 @@ let (interest, principal_paid, remaining) = rows[0];       // first period
 !!! tip "Build a full schedule interactively"
     The crate gives you the raw math. For an interactive table with extra
     payments and export, use the
-    [AssetLoanCalculator amortization tool](https://assetloancalculator.com/).
+    [the source, assetloancalculator.com](https://assetloancalculator.com/).
 
 ## Features
 
